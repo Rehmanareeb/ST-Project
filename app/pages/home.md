@@ -1,7 +1,7 @@
 <h1>Welcome to FastAPI Website Starter Demo</h1>
 
 <p>
-Please read <a href="https://levelup.gitconnected.com/building-a-website-starter-with-fastapi-92d077092864">my Medium article for details.</a>
+
 </p>
 
 <p>

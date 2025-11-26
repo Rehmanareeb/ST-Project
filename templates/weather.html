@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+{% set active_page = "Weather" %}
+
+{% block title %} Weather.{% endblock %}
+
+{% block head %}
+{{ super() }}
+
+
+{% endblock %}
+
+{% block page_content %}
+<h1 style="text-align: center;">Testing the Weather</h1>
+
+<div style="text-align: center;">
+    <form method="get" action="/weather">
+        <label for="city">Enter City Name:</label>
+        <input type="text" id="city" name="city" placeholder="e.g., New York">
+        <button type="submit">Get Weather</button>
+    </form>
+</div>
+
+{% if weather %}
+<div style="text-align: center; margin-top: 20px;">
+    The current weather in {{ weather.city_name }} is {{ weather.description }} with a temperature of {{ weather.temperature_c }}°C.
+</div>
+{% endif %}
+{% endblock %}
+
+{% block scripts %}
+{{ super() }}
+
+
+{% endblock %}

@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% set active_page = "unsplash" %}
+
+{% block title %} Error.{% endblock %}
+
+{% block head %}
+{{ super() }}
+
+
+{% endblock %}
+
+
+{% extends "base.html" %}
+{% set active_page = "unsplash" %}
+
+{% block title %} Error.{% endblock %}
+
+{% block head %}
+{{ super() }}
+
+
+<h1 class="cap" style="text-align: center;">Error Page.</h1>
+
+<div style="text-align: center;">
+    <p>{{ error_message }}</p>
+</div>
+
+<div style="text-align:  center;">
+
+    <img class="responsive" src="https://http.cat/404" width="400" height="400">
+</div>
+{% endblock %}

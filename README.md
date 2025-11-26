@@ -1,14 +1,11 @@
 # Fastapi Web Starter
 
-Updated: 2022-01-18
-
-[https://shinichiokada.medium.com/](https://shinichiokada.medium.com/) ([Building a Website Starter with FastAPI](https://levelup.gitconnected.com/building-a-website-starter-with-fastapi-92d077092864)).
 
 ## Overview
 
 A static simple website ready to deploy.
 This repo includes all the file and it is ready to deploy to Heroku.
-[How to Deploy a FastAPI App on Heroku for Free](https://towardsdatascience.com/how-to-deploy-your-fastapi-app-on-heroku-for-free-8d4271a4ab9)
+
 
 - .env
 - .gitignore
@@ -38,9 +35,13 @@ pytest==6.2.5
 
 ## Installation & Usage
 
+ * TIme 1am date 25/11/25
+  
+  Use python version 3.10 and then make an environment. Don't use any other version else this wont run. 
+    -Areeb
 ```bash
-$ git clone git@github.com:shinokada/fastapi-web-starter.git
-$ cd fastapi-web-starter
+
+$ cd fastapi-web-starte r
 # install packages
 $ pip install -r requirements.txt
 # start the server
@@ -69,15 +70,12 @@ $ cd fastapi-web-starter
 $ pytest -v
 ```
 
-## Author
 
-[twitter](https://twitter.com/shinokada)
 
 ## Licence
 
 【MIT License】
 
-Copyright 2021 Shinichi Okada
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
